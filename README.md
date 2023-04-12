@@ -25,3 +25,18 @@ Just a place to start learning C++ basics.
 * __Execute__: To execute the machine code file, all you need to do is type ```./``` and the machine code file name in the terminal and press enter. In this case, being ```a.out```.
 
 * Naming executables: First type ```g++``` followed by a space and the filename and then a space followed by ```-o``` and a space and then the file name you want for the executable file. Execute the same way.
+
+## Variables
+
+| Type | Usage | Examples |
+| ---- | ----- | -------- |
+| int | integer numbers | 0, 420|
+| double | floating-point numbers | 3.14, -200.0 |
+| char | characters | 'a','@' |
+| string | sequence of characters | "Hello world!", "Codecademy" |
+| bool | truth values | true false |
+
+### User Input
+
+* ```cin``` refers to the standard input stream (pronounced c-in) for character input.
+* ```>>``` operator that specifies where that input goes
