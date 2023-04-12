@@ -36,7 +36,34 @@ Just a place to start learning C++ basics.
 | string | sequence of characters | "Hello world!", "Codecademy" |
 | bool | truth values | true false |
 
+### Initialization Examples
+* ```int age = 28;```
+* ```double price = 8.99;```
+* ```char grade = 'A';```
+* ```std::string message = "Game Over";```
+* ```bool late_to_work = true;```
+
 ### User Input
 
 * ```cin``` refers to the standard input stream (pronounced c-in) for character input.
 * ```>>``` operator that specifies where that input goes
+
+### Datatype Modifiers
+
+* Datatype modifiers are used with built-in data types to modify the length of data that a particular data type can hold. Data type modifiers in C++ are:
+  * ```signed```
+  * ```unsigned```
+  * ```short```
+  * ```long```
+
+* ```const``` -constant variables cannot be changed by your program during execution
+* ___Type Conmversion___ - A type cast is basically a conversion from one type to another. The notation ```(type) value``` means "convert ```value``` to ```type```".
+  * Example:
+  ```
+  double weight1;
+  int weight2;
+  weight1 = 154.49;
+  weight2 = (int) weight1;
+  // weight2 is now 154
+  ```
+  * ___Conversion from ```double``` to ```int``` does not round.___
